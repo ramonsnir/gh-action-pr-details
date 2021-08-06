@@ -1,6 +1,6 @@
 {
   "name": "gh-action-pr-details",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Action that gets the details for the current pull request",
   "main": "dist/main.js",
   "scripts": {
