@@ -1,17 +1,16 @@
-Based on: [pr-branch-name](https://github.com/mdecoleman/pr-branch-name)
+# Pull Request Details
 
-# Pull Request Branch Name
-
-A github action that retrieves the pull request title and sets it in the output for other actions to use.
+A github action that retrieves the pull request details and sets them in the output for other actions to use.
 
 # Usage
 
 ```yaml
-- uses: ramonsnir/gh-action-pr-title@1.0.0
+- uses: ramonsnir/gh-action-pr-details@1.0.0
   id: vars
   with:
     repo-token: ${{ secrets.GITHUB_TOKEN }}
 - run: echo ${{ steps.vars.outputs.pr_title }}
+- run: echo ${{ steps.vars.outputs.pr_url }}
 ```
 
 # License

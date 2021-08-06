@@ -1,14 +1,14 @@
 {
-  "name": "gh-action-pr-title",
+  "name": "gh-action-pr-details",
   "version": "1.0.0",
-  "description": "Action that gets the title for the current pull request",
+  "description": "Action that gets the details for the current pull request",
   "main": "dist/main.js",
   "scripts": {
     "package": "npx ncc build src/main.js -o dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramonsnir/gh-action-pr-title.git"
+    "url": "git+https://github.com/ramonsnir/gh-action-pr-details.git"
   },
   "keywords": [
     "github",
@@ -16,9 +16,9 @@
     "pull request"
   ],
   "bugs": {
-    "url": "https://github.com/ramonsnir/gh-action-pr-title/issues"
+    "url": "https://github.com/ramonsnir/gh-action-pr-details/issues"
   },
-  "homepage": "https://github.com/ramonsnir/gh-action-pr-title#readme",
+  "homepage": "https://github.com/ramonsnir/gh-action-pr-details#readme",
   "author": "Ramon Snir <r@mon.dev>",
   "license": "MIT",
   "dependencies": {

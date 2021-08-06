@@ -1,5 +1,5 @@
-name: "PR Title"
-description: "Sets the PR title for other steps"
+name: "PR Details"
+description: "Sets the PR details for other steps"
 inputs:
   repo-token:
     description: "GITHUB_TOKEN secret"
