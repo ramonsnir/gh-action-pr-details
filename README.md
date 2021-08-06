@@ -5,7 +5,7 @@ A github action that retrieves the pull request details and sets them in the out
 # Usage
 
 ```yaml
-- uses: ramonsnir/gh-action-pr-details@1.0.2
+- uses: ramonsnir/gh-action-pr-details@1.0.3
   id: vars
   with:
     repo-token: ${{ secrets.GITHUB_TOKEN }}
