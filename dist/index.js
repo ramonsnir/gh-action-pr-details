@@ -112,7 +112,7 @@ const github = __webpack_require__(469);
 
 async function run() {
     try {
-        for (const mainDetail of ['number', 'url', 'diff_url', 'state', 'title', 'body']) {
+        for (const mainDetail of ['number', 'url', 'html_url', 'diff_url', 'patch_url', 'state', 'title', 'body']) {
             core.setOutput(`pr_${mainDetail}`, github.context.payload.pull_request[mainDetail]);
         }
     } catch (error) {
